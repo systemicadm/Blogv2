@@ -1,0 +1,42 @@
+baseurl = "https://blog.systemicadmin.com/"
+title = "Systemic Approach"
+languageCode = "en-us"
+paginate = "5" # Number of posts per page
+theme = "mainroad"
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+
+[Params]
+  subtitle = "A Windows Admin how-to" # Subtitle of your site
+  description = "Jon's blog detailing problems and hopefully solutions he finds along the way" # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  copyright = "Jon 'Systemic'" # Footer copyright holder, otherwise will use site title
+  toc = false # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "01-02-2019" # Change the format of dates
+  highlightColor = "#e22d30" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+sidemenu = true
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  twitter = "SystemicAdm"
+  linkedin = "jon-apter-a8407a84"
+  github = "systemicadm"
+  email = "jon@systemicadmin.com"
