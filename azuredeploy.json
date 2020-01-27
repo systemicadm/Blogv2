@@ -147,7 +147,7 @@
             "location": "[resourceGroup().location]",
             "apiVersion": "2017-04-02",
             "sku": {
-                "name": "Standard_Microsoft"
+                "name": "Standard_Verizon"
             },
             "properties": {},
             "resources": [
