@@ -6,12 +6,11 @@ sidebar: true
 toc: false
 description: "System Center Configuration Manager Installation"
 categories:
-  - "System Center"
-  - "Configuration Manager"
-  - "Current Branch"
-  - "SQL"
+  - "System Center Configuration Manager"
+
 tags:
-  - "System Administration"
+  - "Current Branch"
+  - "SQL"  
   - "Microsoft"
 
 # Theme-Defined params

@@ -10,9 +10,8 @@ categories:
   - "Monitoring"
   
 tags:
-  - "System Administration"
-  - "Microsoft"
   - "Active Directory"
+  - "Microsoft"
 
 # Theme-Defined params
 comments: false # Enable Disqus comments for specific page

@@ -6,10 +6,10 @@ sidebar: true
 toc: false
 description: "Better then nothing I guess..."
 categories:
-  - "Server 2016"
   - "WSUS"
+  - "System Center Configuration Manager"
+
 tags:
-  - "System Administration"
   - "Microsoft"
 
 # Theme-Defined params

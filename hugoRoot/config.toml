@@ -7,7 +7,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 
 [Params]
-  subtitle = "A Windows Admin how-to" # Subtitle of your site
+  subtitle = "Tenacious errors and failures at Google-ing the fixes" # Subtitle of your site
   description = "Jon's blog detailing problems and hopefully solutions he finds along the way" # Description of your site
   opengraph = true
   twitter_cards = false
