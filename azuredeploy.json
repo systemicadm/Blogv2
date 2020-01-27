@@ -145,9 +145,9 @@
             "name": "[variables('cdnProfileName')]",
             "type": "Microsoft.Cdn/profiles",
             "location": "[resourceGroup().location]",
-            "apiVersion": "2017-04-02",
+            "apiVersion": "2019-04-15",
             "sku": {
-                "name": "Standard_Verizon"
+                "name": "Standard_Microsoft"
             },
             "properties": {},
             "resources": [
@@ -156,7 +156,7 @@
                     "name": "[variables('cdnEndpointName')]",
                     "type": "endpoints",
                     "location": "[resourceGroup().location]",
-                    "apiVersion": "2017-04-02",
+                    "apiVersion": "2019-04-15",
                     "dependsOn": [
                         "[resourceId('Microsoft.Cdn/profiles', variables('cdnProfileName'))]",
                         "[resourceId('Microsoft.Web/sites/', variables('functionAppName'))]"
