@@ -11,6 +11,8 @@ categories:
 
 tags:
   - "Microsoft"
+  - "Current Branch"
+
 
 # Theme-Defined params
 comments: false # Enable Disqus comments for specific page
